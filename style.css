@@ -1,0 +1,189 @@
+body{
+    font-family: system-ui, sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 0;
+
+}
+h3{
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-evenly;
+    width: 300px;
+    text-align: center;
+    padding: 0;
+}
+nav{
+    font-family: system-ui, sans-serif;
+    text-decoration: none;            
+    color: #333;                        
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+#linha1 {
+    width: 50%;          
+    height: 2px;         
+    background-color: #333; 
+    border: none;        
+    margin: 10px autp;
+}
+
+#linha2 {
+    width: 10%;          
+    height: 2px;         /* Controla a espessura da linha */
+    background-color: #333; /* Muda a cor da linha */
+    border: none;        /* Remove a borda padrão do navegador */
+    margin: 1px ;   /* Centraliza a linha e dá espaço em cima/em baixo */
+}
+
+nav a {
+    text-decoration: none;            
+    color: #333;                        
+    font-family: system-ui, sans-serif;
+    font-weight: 500;
+}
+ p{
+    text-align: center;
+    margin-top: 50px;
+}
+#p2 {
+    margin-top: 50px; /* Ajuste o valor em pixels como preferir */
+    text-align: center;
+}
+#id_video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;   
+    margin-bottom: 40px;
+}
+#Sobre {
+    margin-top: 50px;
+}
+.card {
+    background-color: #acaddb;  
+    border-radius: 8px;        
+    padding: 20px 25px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+/* Estilo do título dentro do card */
+#card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #0f172a;
+    text-align: left;           
+}
+
+/* Estilo da lista */
+#card ul {
+    list-style-type: square;     
+    padding-left: 20px;          
+    margin: 0;
+}
+
+/* Estilo dos itens da lista */
+#card li {
+    margin-bottom: 8px;
+    color: #323c4d;
+    font-size: 1rem;
+    text-align: left;
+}
+#imgs {
+    display: flex;
+    flex-wrap: wrap;             
+    justify-content: center;     
+    gap: 15px; 
+    margin: 20px auto;
+    max-width: 900px;
+}
+contato{
+    margin-top: 100px;
+}
+#imgs img:nth-child(1),
+#imgs img:nth-child(2) {
+    width: 45%;               /* Em vez de 100%, usa 45% para caberem 2 na mesma linha */
+    height: auto;
+    border-radius: 8px;
+}
+#imgs img:nth-child(3) {
+    width: 45%;               /* Ajuste este valor se quiser que ela fique maior ou menor */
+    height: auto;
+    border-radius: 8px;
+}
+#form-contato {
+    max-width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+#campo-nome,
+#campo-email,
+#campo-mensagem {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#nome, 
+#email, 
+#mensagem {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 0.95rem;
+    box-sizing: border-box;
+}
+
+#btn-enviar {
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btn-enviar:hover {
+    background-color: #555;
+}
+
+#rodape {
+    margin-top: 50px;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    color: #666;
+    font-size: 0.9rem;
+}
+#perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20%;
+    margin-top: 10px;
+}
+#foto-perfil{
+    width: 70px;             /* Largura da imagem */
+    height: 70px;            /* Altura da imagem (deve ser igual à largura) */
+    border-radius: 50%;      /* Deixa a imagem perfeitamente redonda */
+    object-fit: cover;       /* Evita que a foto fique distorcida */
+    border: 2px solid #333;
+}
