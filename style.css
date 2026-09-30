@@ -52,6 +52,9 @@ nav a {
     text-align: center;
     margin-top: 50px;
 }
+#p_contato{
+    text-align: justify;
+}
 #p2 {
     margin-top: 50px; /* Ajuste o valor em pixels como preferir */
     text-align: center;
@@ -75,7 +78,6 @@ nav a {
     box-sizing: border-box;
 }
 
-/* Estilo do título dentro do card */
 #card h3 {
     margin-top: 0;
     margin-bottom: 15px;
@@ -84,14 +86,12 @@ nav a {
     text-align: left;           
 }
 
-/* Estilo da lista */
 #card ul {
     list-style-type: square;     
     padding-left: 20px;          
     margin: 0;
 }
 
-/* Estilo dos itens da lista */
 #card li {
     margin-bottom: 8px;
     color: #323c4d;
@@ -186,4 +186,13 @@ contato{
     border-radius: 50%;      /* Deixa a imagem perfeitamente redonda */
     object-fit: cover;       /* Evita que a foto fique distorcida */
     border: 2px solid #333;
+}
+#texto{
+    color: #4c2f72;
+    padding: 5%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
